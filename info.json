@@ -1,57 +1,74 @@
 {
 	"presentation": {
-		"name": "",
-		"age": "",
-		"title": "",
-		"city": "",
-		"country": "",
-		"language": [{"language-level": "", "language": ""}],
-		"summary": "",
-		"image": ""
+		"name": "Mall Mallsson",
+		"age": "32",
+		"title": "Ice cream consultant",
+		"city": "Växjö",
+		"country": "Sweden",
+		"language": [
+			{
+				"language-level": "Native language", 
+				"language": "Swedish"
+			},
+			{
+				"language-level": "Second Language", 
+				"language": "English"
+			}
+		],
+		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+		"image": "https://i.pinimg.com/originals/90/82/dc/9082dce5e9f4b800a0b8728ad402a2b6.png"
 	},
 
 	"contact-information": {
-		"email": "",
-		"phone": "",
-		"linkedin": "",
-		"github": ""
+		"email": "göran@gb.se",
+		"phone": "0187723782",
+		"linkedin": "https://no.linkedin.com/in/craig-marais-47b42a33",
+		"github": "https://github.com/muskatel"
 	},
 
 	"education": [
 		{
-			"univeristy": "",
-			"city": "",
-			"country": "",
-			"start-date": "",
-			"graduation": "",
-			"summary": ""
+			"univeristy": "Linnaeus University",
+			"city": "Växjö",
+			"country": "Sweden",
+			"start-date": "1990-09-01",
+			"graduation": "2019-06-01",
+			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		},
+		{
+			"univeristy": "BTH",
+			"city": "Karlshamn",
+			"country": "Sweden",
+			"start-date": "1989-09-01",
+			"graduation": "1990-06-01",
+			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		}
 	],
 
 	"work-experience": [
 		{
-			"work-place": "",
-			"title": "",
-			"city": "",
-			"country": "",
-			"start-date": "",
-			"end-date": "",
-			"summary": ""
+			"work-place": "Ice cream shop",
+			"title": "Greeter",
+			"city": "World",
+			"country": "World",
+			"start-date": "1965-01-01",
+			"end-date": "2019-10-10",
+			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 		}
 	],
 
 	"skills": [
-		"",
-		"",
-		"",
-		"",
-		""
+		"Greeting",
+		"Waving",
+		"Smiling",
+		"Lifting hat",
+		"Tennis"
 	],
 
 	"extra": [
 		{
-			"title": "",
-			"summary": ""
+			"title": "Volunteer",
+			"summary": "Animal shelter"
 		}
 	]
 }
