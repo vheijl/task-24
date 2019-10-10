@@ -1,0 +1,57 @@
+{
+	"presentation": {
+		"name": "",
+		"age": "",
+		"title": "",
+		"city": "",
+		"country": "",
+		"language": [{"language-level": "", "language": ""}],
+		"summary": "",
+		"image": ""
+	},
+
+	"contact-information": {
+		"email": "",
+		"phone": "",
+		"linkedin": "",
+		"github": ""
+	},
+
+	"education": [
+		{
+			"univeristy": "",
+			"city": "",
+			"country": "",
+			"start-date": "",
+			"graduation": "",
+			"summary": ""
+		}
+	],
+
+	"work-experience": [
+		{
+			"work-place": "",
+			"title": "",
+			"city": "",
+			"country": "",
+			"start-date": "",
+			"end-date": "",
+			"summary": ""
+		}
+	],
+
+	"skills": [
+		"",
+		"",
+		"",
+		"",
+		""
+	],
+
+	"extra": [
+		{
+			"title": "",
+			"summary": ""
+		}
+	]
+}
