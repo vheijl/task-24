@@ -22,8 +22,16 @@
 	"contact-information": {
 		"email": "göran@gb.se",
 		"phone": "0187723782",
-		"linkedin": "https://no.linkedin.com/in/craig-marais-47b42a33",
-		"github": "https://github.com/muskatel"
+		"links": [
+			{
+				"url": "https://no.linkedin.com/in/craig-marais-47b42a33",
+				"icon-class": "fab fa-linkedin"
+			},
+			{
+				"url": "https://github.com/muskatel",
+				"icon-class": "fab fa-github-square"
+			}
+		]
 	},
 
 	"education": [
