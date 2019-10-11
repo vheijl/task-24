@@ -57,8 +57,24 @@ function createContactInfo(contactInfo) {
     let phoneEl =  document.getElementById("phone");
     let linksEl =  document.getElementById("links");
 
-    emailEl.innerHTML = contactInfo["email"];
-    phoneEl.innerHTML = contactInfo["phone"];
+    let emailIcon = document.createElement("i");
+    let telephoneIcon = document.createElement("i");
+    let emailLink = document.createElement("a");
+    let phoneLink = document.createElement("a");
+    emailLink.href = "mailto:" + contactInfo["email"];
+    phoneLink.href ="tel:" + contactInfo["phone"];
+    emailLink.innerHTML = contactInfo["email"];
+    phoneLink.innerHTML = contactInfo["phone"];
+    emailIcon.classList.add("far", "fa-envelope");
+    telephoneIcon.classList.add("fas", "fa-phone-alt");
+
+    emailEl.appendChild(emailIcon);
+    emailEl.appendChild(emailLink);
+    phoneEl.appendChild(telephoneIcon);
+    phoneEl.appendChild(phoneLink);
+    
+    // emailEl.innerHTML += contactInfo["email"];
+    // phoneEl.innerHTML += contactInfo["phone"];
     linksEl.appendChild(createLinksList(contactInfo["links"]));
 }
 

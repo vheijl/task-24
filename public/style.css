@@ -27,15 +27,21 @@ h3 {
 }
 
 #contactInformation {
-    background-color: #784786;
+    background-color: #9156a2;
     color: #cd9adb;
     margin: 0 -20px -20px -20px;
     padding: 20px;
 }
 
 #contactInformation h3 {
-    color: #431b4f;
+    color: #5e1573;
 }
+
+#mail a, #phone a {
+    margin-left: 10px;
+    color: #e7c5ea;
+}
+
 
 #title.text-muted {
 	color: #e7cfff !important;
@@ -53,6 +59,10 @@ h3 {
 
 #links div {
     border-top: none;
+}
+
+#links div a {
+    margin-right: 5px;
 }
 
 .btn {
