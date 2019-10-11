@@ -1,8 +1,8 @@
 {
 	"presentation": {
-		"name": "Mall Mallsson",
-		"age": "32",
-		"title": "Ice cream consultant",
+		"name": "Victor Heijler",
+		"age": "27",
+		"title": "Consultant",
 		"city": "Växjö",
 		"country": "Sweden",
 		"language": [
@@ -15,20 +15,20 @@
 				"language": "English"
 			}
 		],
-		"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-		"image": "/img/gb.png"
+		"summary": "I'm originally from the Stockholm area and have been interested in Web technologies for a long time. I'm currently honing my knowledge och Web Technologies and learning Java at Experis Academy. <br><br>I play video games, look for  GeoCaches and tinker with technology in my sparetime.",
+		"image": "/img/vh.png"
 	},
 
 	"contact-information": {
-		"email": "göran@gb.se",
-		"phone": "0187723782",
+		"email": "victor.heijler@se.experis.com",
+		"phone": "0762******",
 		"links": [
 			{
-				"url": "https://no.linkedin.com/in/craig-marais-47b42a33",
+				"url": "https://www.linkedin.com/in/victor-heijler/",
 				"icon-class": "fab fa-linkedin-in fa-2x"
 			},
 			{
-				"url": "https://github.com/muskatel",
+				"url": "https://github.com/vheijl",
 				"icon-class": "fab fa-github fa-2x"
 			}
 		]
@@ -39,44 +39,62 @@
 			"university": "Linnaeus University",
 			"city": "Växjö",
 			"country": "Sweden",
-			"start-date": "1990-09-01",
-			"graduation": "2019-06-01",
-			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-		},
-		{
-			"university": "BTH",
-			"city": "Karlshamn",
-			"country": "Sweden",
-			"start-date": "1989-09-01",
-			"graduation": "1990-06-01",
-			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"start-date": "2016",
+			"graduation": "2019",
+			"summary": "Studying the Interactive Media and Web Technologies program at Linnaeus University, which included intensive studies in modern Web Technologies, interaction design and theory."
 		}
 	],
 
 	"work-experience": [
 		{
-			"work-place": "Ice cream shop",
-			"title": "Greeter",
-			"city": "World",
-			"country": "World",
-			"start-date": "1965-01-01",
-			"end-date": "2019-10-10",
-			"summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+			"work-place": "Experis Academy",
+			"title": "Consultant",
+			"city": "Växjö",
+			"country": "Sweden",
+			"start-date": "2019-09",
+			"end-date": "Ongoing",
+			"summary": "Full Stack Developer, working with front- and back-end technologies. Primarily Java, Java Spring, and JavaScript with React, Vue and Angular."
+		},
+		{
+			"work-place": "Linnaeus University",
+			"title": "Teaching assistant",
+			"city": "Växjö",
+			"country": "Sweden",
+			"start-date": "2017-09",
+			"end-date": "2019-01",
+			"summary": "Teaching assistant in the courses Web Technology 1 and Web Technology 2. With focus on teaching in a lab setting and grading web technologies."
+		},
+		{
+			"work-place": "Softhouse Consulting",
+			"title": "Intern",
+			"city": "Växjö",
+			"country": "Sweden",
+			"start-date": "2018-11",
+			"end-date": "2019-01",
+			"summary": "Web development with React, Redux and MongoDB. Development of a prototype for a project in health care."
 		}
 	],
 
 	"skills": [
-		"Greeting",
-		"Waving",
-		"Smiling",
-		"Lifting hat",
-		"Tennis"
+		"JavaScript",
+		"React",
+		"Typescript",
+		"HTML",
+		"CSS",
+		"Java",
+		"Java Spring",
+		"SQL",
+		"Git"
 	],
 
 	"extra": [
 		{
-			"title": "Volunteer",
-			"summary": "Animal shelter"
+			"title": "Crossboard",
+			"summary": "Created prototyping tool for rapid exploration/visualization of datasets as part of a research project at Linnaeus University. Using D3, DC.js, CSS & HTML, and React."
+		},
+		{
+			"title": "ECraft2Learn",
+			"summary": "Created authoring tools (Sharing of files, commenting, task list) for students and teachers to use within the making-oriented project eCraft2Learn. Using JavaScript, jQuery, PHP, CSS & HTML."
 		}
 	]
 }

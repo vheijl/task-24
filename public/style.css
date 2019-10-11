@@ -100,3 +100,11 @@ h3 {
     margin-right: 10px;
     background-color: #ad83b9;
 }
+
+#age {
+    font-style: italic;
+}
+
+#work > div, #extra > div, #skills > span {
+    margin-bottom: 40px;
+}
