@@ -59,11 +59,21 @@ function createContactInfo(contactInfo) {
 
     emailEl.innerHTML = contactInfo["email"];
     phoneEl.innerHTML = contactInfo["phone"];
-    // linksEl.appendChild(createLinksList(contactInfo["links"]));
+    linksEl.appendChild(createLinksList(contactInfo["links"]));
 }
 
 function createLinksList(arr) {
-
+    let div = document.createElement("div");
+    for (let i = 0; i < arr.length; i++) {
+        let link = document.createElement("a");
+        let icon = document.createElement("i");
+        link.href = arr[i]["url"];
+        link.classList.add("btn", "btn-outline-warning");
+        icon.classList.add(...arr[i]["icon-class"].split(" "));
+        link.appendChild(icon);
+        div.appendChild(link);
+    }
+    return div;
 }
 
 // function createEducation(education) {

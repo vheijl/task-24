@@ -25,11 +25,11 @@
 		"links": [
 			{
 				"url": "https://no.linkedin.com/in/craig-marais-47b42a33",
-				"icon-class": "fab fa-linkedin-in"
+				"icon-class": "fab fa-linkedin-in fa-2x"
 			},
 			{
 				"url": "https://github.com/muskatel",
-				"icon-class": "fab fa-github-square"
+				"icon-class": "fab fa-github fa-2x"
 			}
 		]
 	},
