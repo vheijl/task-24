@@ -86,17 +86,16 @@ function createLinksList(arr) {
 
  function createEducationLoop(educations) {
     let div = document.createElement("div");
-        let universityEl = document.createElement("p");
-        let cityEl = document.createElement("p");
-        let countryEl = document.createElement("p");
+        let universityEl = document.createElement("h5");
+        let cityEl = document.createElement("h6");
+        let countryEl = document.createElement("h6");
         let startEl = document.createElement("p");
         let graduationEl = document.createElement("p");
         let summaryEl = document.createElement("p");
 
         universityEl.innerHTML += educations["university"];
         cityEl.innerHTML += educations["city"] + ", " + educations["country"];
-        startEl.innerHTML += educations["start-date"];
-        graduationEl.innerHTML += educations["graduation"];
+        startEl.innerHTML += educations["start-date"] + " - " + educations["graduation"];
         summaryEl.innerHTML += educations["summary"];
 
         div.appendChild(universityEl);
