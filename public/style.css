@@ -45,6 +45,10 @@ h3 {
     padding: 0;
 }
 
+#links div {
+    border-top: none;
+}
+
 .btn {
     border-color: #e7cfff;
     color: #e7cfff;
