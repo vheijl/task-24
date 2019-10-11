@@ -39,6 +39,16 @@ h3 {
     color: #cd9adb;
     margin: 0 -20px -20px -20px;
     padding: 20px;
+    padding-bottom: 60px;
+}
+
+.presentation {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+
+.presentation img {
+    padding-top: 20px;
 }
 
 #contactInformation h3 {
