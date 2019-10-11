@@ -15,7 +15,7 @@ function createElements(obj) {
     createPresentation(obj["presentation"]);
     createContactInfo(obj["contact-information"]);
     createEducation(obj["education"]);
-    // createWorkExp(obj["work-experience"]);
+    createWorkExp(obj["work-experience"]);
     // createSkills(obj["skills"]);
     // createExtra(obj["extra"]);
 }
@@ -93,6 +93,9 @@ function createLinksList(arr) {
         let graduationEl = document.createElement("p");
         let summaryEl = document.createElement("p");
 
+        cityEl.classList.add("h6style");
+        countryEl.classList.add("h6style");
+
         universityEl.innerHTML += educations["university"];
         cityEl.innerHTML += educations["city"] + ", " + educations["country"];
         startEl.innerHTML += educations["start-date"] + " - " + educations["graduation"];
@@ -108,9 +111,44 @@ function createLinksList(arr) {
         return div;
  }
 
-// function createWorkExp(workExp) {
-//     let workplaceList = document.getElementById("");
-// }
+ function createWorkExp(workExp) {
+     let workplaceList = document.getElementById("work");
+
+     for (let i = 0; i < workExp.length; i++) {
+        workplaceList.appendChild(createWorkLoop(workExp[i]));
+     }
+ }
+
+ function createWorkLoop(workExperi) {
+    let div = document.createElement("div")
+        let workplaceEl = document.createElement("h5");
+        let titleEl = document.createElement("h6");
+        let cityEl = document.createElement("h6");
+        let countryEl = document.createElement("h6");
+        let startEl = document.createElement("p");
+        let endEl = document.createElement("p");
+        let summaryEl = document.createElement("p");
+
+        cityEl.classList.add("h6style");
+        countryEl.classList.add("h6style");
+        titleEl.classList.add("worktitlestyle");
+
+        workplaceEl.innerHTML += workExperi["work-place"];
+        titleEl.innerHTML += workExperi["title"];
+        cityEl.innerHTML += workExperi["city"] + ", " + workExperi["country"];
+        startEl.innerHTML += workExperi["start-date"] + " - " + workExperi["end-date"];
+        summaryEl.innerHTML += workExperi["summary"];
+
+        div.appendChild(workplaceEl);
+        div.appendChild(titleEl);
+        div.appendChild(cityEl);
+        div.appendChild(countryEl);
+        div.appendChild(startEl);
+        div.appendChild(endEl);
+        div.appendChild(summaryEl);
+
+        return div;
+    }
 
 // function createSkills(skills) {
 //     let skills = document.getElementById("");

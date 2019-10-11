@@ -11,6 +11,14 @@ h3 {
     padding-bottom: 20px;
 }
 
+.h6style {
+    color: #ad83b9a6;
+}
+
+.worktitlestyle {
+    font-style: italic;
+}
+
 .row > div {
     padding: 20px;
     background-color: white;
