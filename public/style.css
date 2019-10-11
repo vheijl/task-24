@@ -6,6 +6,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 
+h3 {
+	margin-top: 10px;
+}
+
 .row > div {
     padding: 20px;
     background-color: white;
@@ -17,8 +21,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .row > div:nth-child(odd) {
-    background-color: #a99abf;
+    background-color: #ad83b9;
     color: black;
+}
+
+.row3 div:first-child  {
+	border-top: 1px;
+	border-top-color: black;
+	border-top-style: solid;
+}
+
+#title.text-muted {
+	color: #e7cfff !important;
 }
 
 .container {
@@ -32,12 +46,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-    border-color: #6c2c90;
-    color: #6c2c90;
+    border-color: #e7cfff;
+    color: #e7cfff;
 }
 
 .btn:hover {
-    border-color: #6c2c90;
-    background-color: #6c2c90;
-    color: #f9f9f9;
+    border-color: #e7cfff;
+    background-color: #e7cfff;
+    color: #ad83b9;
 }
