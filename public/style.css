@@ -49,6 +49,7 @@ h3 {
 
 .presentation img {
     padding-top: 20px;
+    max-width: 100%;
 }
 
 #contactInformation h3 {
@@ -92,4 +93,10 @@ h3 {
     border-color: #e7cfff;
     background-color: #e7cfff;
     color: #ad83b9;
+}
+
+#skills .badge {
+    font-size: 18px;
+    margin-right: 10px;
+    background-color: #ad83b9;
 }

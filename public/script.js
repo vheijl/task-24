@@ -16,8 +16,8 @@ function createElements(obj) {
     createContactInfo(obj["contact-information"]);
     createEducation(obj["education"]);
     createWorkExp(obj["work-experience"]);
-    // createSkills(obj["skills"]);
-    // createExtra(obj["extra"]);
+    createSkills(obj["skills"]);
+    createExtra(obj["extra"]);
 }
 
 function createPresentation(presentation) {
@@ -166,10 +166,31 @@ function createLinksList(arr) {
         return div;
     }
 
-// function createSkills(skills) {
-//     let skills = document.getElementById("");
-// }
+function createSkills(skillsArr) {
+    let skills = document.getElementById("skills");
+    for (let i = 0; i < skillsArr.length; i++) {
+        let badge = document.createElement("span")
+        badge.className = "badge badge-secondary";
+        badge.innerHTML = skillsArr[i];
+        skills.appendChild(badge);
+    }
+}
 
-// function createExtra(extra) {
-//     let extraList = document.getElementById("");
-// }
+function createExtra(extra) {
+    let extraList = document.getElementById("extra");
+    for (let i = 0; i < extra.length; i++) {
+        extraList.appendChild(createExtraList(extra[i]));
+    }
+}
+
+function createExtraList(obj) {
+    let div = document.createElement("div");
+    let h5 = document.createElement("h5");
+    let p = document.createElement("p");
+
+    h5.textContent = obj["title"];
+    p.textContent = obj["summary"];
+    div.appendChild(h5);
+    div.appendChild(p);
+    return div
+}
