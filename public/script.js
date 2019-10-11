@@ -14,7 +14,7 @@ async function fetchData() {
 function createElements(obj) {
     createPresentation(obj["presentation"]);
     createContactInfo(obj["contact-information"]);
-    // createEducation(obj["education"]);
+    createEducation(obj["education"]);
     // createWorkExp(obj["work-experience"]);
     // createSkills(obj["skills"]);
     // createExtra(obj["extra"]);
@@ -76,9 +76,38 @@ function createLinksList(arr) {
     return div;
 }
 
-// function createEducation(education) {
-//     let educationList = document.getElementById("");
-// }
+ function createEducation(education) {
+     let educationList = document.getElementById("uni");
+     
+     for (let i = 0; i < education.length; i++) {
+        educationList.appendChild(createEducationLoop(education[i]));
+     }
+ }
+
+ function createEducationLoop(educations) {
+    let div = document.createElement("div");
+        let universityEl = document.createElement("p");
+        let cityEl = document.createElement("p");
+        let countryEl = document.createElement("p");
+        let startEl = document.createElement("p");
+        let graduationEl = document.createElement("p");
+        let summaryEl = document.createElement("p");
+
+        universityEl.innerHTML += educations["university"];
+        cityEl.innerHTML += educations["city"] + ", " + educations["country"];
+        startEl.innerHTML += educations["start-date"];
+        graduationEl.innerHTML += educations["graduation"];
+        summaryEl.innerHTML += educations["summary"];
+
+        div.appendChild(universityEl);
+        div.appendChild(cityEl);
+        div.appendChild(countryEl);
+        div.appendChild(startEl);
+        div.appendChild(graduationEl);
+        div.appendChild(summaryEl);
+
+        return div;
+ }
 
 // function createWorkExp(workExp) {
 //     let workplaceList = document.getElementById("");
